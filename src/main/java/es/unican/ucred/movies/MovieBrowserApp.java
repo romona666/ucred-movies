@@ -10,7 +10,7 @@ import java.awt.*;
 /**
  * Main application class for the UCRED Movies Browser.
  */
-public class MovieBrowserApp 
+public class MovieBrowserApp {
     public static void main(String[] args) {
         // Set system look and feel
         try {
