@@ -21,3 +21,9 @@ jobs:
 
       - name: Compilar y empaquetar
         run: mvn clean package
+        
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+            name: artefacto-pruebas
+            path: target/
